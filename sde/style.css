@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.survey-container {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.question-container {
+    margin-top: 20px;
+}
+
+.navigation-buttons {
+    margin-top: 20px;
+}
+
+.confirmation-dialog {
+    margin-top: 20px;
+}
+
+.thank-you-screen {
+    margin-top: 20px;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.survey-container {
+    background-color: #3498db;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.question-container {
+    margin-top: 20px;
+    color: white; /* Set text color to white */
+}
+
+.navigation-buttons {
+    margin-top: 20px;
+}
+
+.confirmation-dialog {
+    margin-top: 20px;
+}
+
+.thank-you-screen {
+    margin-top: 20px;
+    color: white; /* Set text color to white */
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.survey-container {
+    background-color: #3498db;
+    padding: 20px;
+    border-radius: 80px;
+    text-align: center;
+    width: 80%; /* Set the width of the survey container */
+    max-width: 600px; /* Set the maximum width of the survey container */
+    position: relative;
+}
+
+.survey-title {
+    color: white;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Updated styles for buttons */
+button {
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 50%; /* Make the buttons circular */
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition for button color change */
+}
+button {
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 50%; /* Make the buttons circular */
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition for button color change */
+}
+button:hover {
+    background-color: red; /* Change button color to red on hover */
+}
+button:mouseout{
+  background-colour:blue;
+}
+button:hover {
+  background-color: #f44336;
+  color: white;
+}
+/* ... rest of your CSS styles ... */
+.button.skip {
+    background-color: #27ae60;
+}

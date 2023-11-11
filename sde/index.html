@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Survey</title>
+      
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="survey-container">
+        <div class="welcome-screen">
+          <h1>Customer Survey</h1>
+            <h1>Welcome to our Shop!</h1>
+            <button id="startBtn">Start Survey</button>
+        </div>
+        <div class="question-container">
+            <div id="questionText"></div>
+            <div id="answerOptions"></div>
+            <div class="navigation-buttons">
+                <button id="prevBtn" class="hidden">Previous</button>
+              <button id="skipBtn">Skip</button>
+                <button id="nextBtn">Next</button>
+            </div>
+        </div>
+        <div class="confirmation-dialog hidden" id="confirmationDialog">
+            <p>Are you sure you want to submit the survey?</p>
+            <button id="confirmBtn">Yes, Submit</button>
+            <button id="cancelBtn">Cancel</button>
+        </div>
+        <div class="thank-you-screen hidden">
+            <h2>Thank you for your time!</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
